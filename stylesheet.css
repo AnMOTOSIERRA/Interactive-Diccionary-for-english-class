@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    background-image: url('empty-dark-gray-wall-room-background-with-light-graphic-art-design-3d-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #1e1e2e;
+}
+
+
+
+
+.tituloprincipal{
+    color:white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.title{
+    color:white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #171717;
+    padding: 20px;
+    font: 300px;
+    border-radius: 3px;
+}
+
+.title2{
+    background-color: #171717;
+    padding: 5px;
+    font: 300px;
+    border-radius: 3px;
+}
+
+.overtitle{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 80px;
+    box-shadow: 0px 100px 100px rgba(16, 16, 16, 0.3);
+}
+
+.overtitle2{
+    background-color: gray;
+    padding: 20px;
+    border-radius: 80px;
+    box-shadow: 0px 100px 100px rgba(16, 16, 16, 0.3);
+}
+
+
+.hreferencias {
+    margin: 20px auto;           /* Centra el botón horizontalmente en la pantalla */
+    width: fit-content;          /* Ajusta el ancho al texto para que no ocupe todo el ancho */
+    display: block;       /* O 'block' si los quieres uno debajo del otro */
+    width: 220px;                /* Define un ancho fijo igual para todos los botones */
+    text-align: center;          /* Centra el texto dentro del botón */
+    padding: 12px 0;
+    background-color: #89b4fa;
+    color: #1e1e2e;
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;[cite: 2]
+    text-align: center;[cite: 2]
+}
+
+.hreferencias:hover {
+    background-color: #b4befe;
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 15px rgba(137, 180, 250, 0.4);
+    justify-content: center;
+    text-align:center;
+}
+
+.parrafe{
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font: 7px;
+    margin-left:70px;
+    margin-right:70px;
+}
+
+.definicion {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;          
+    justify-content: center;
+    align-items: center;    
+    gap: 20px;              
+    color: white;
+}
+
+.piso{
+    display:block;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 2px;
+}
